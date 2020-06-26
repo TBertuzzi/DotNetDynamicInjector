@@ -17,7 +17,7 @@ namespace DotNet.DynamicInjector
             var file = new FileInfo(Path.Combine(directoryName, dll));
 
             if (!file.Exists)
-                throw new Exception($"Dll {dll} not found in folder {directoryName}.");
+                throw new DynamicInjectorException($"Dll {dll} not found in folder {directoryName}.");
 
             return AssemblyLoadContext.Default.LoadFromAssemblyPath(file.FullName);
         }
