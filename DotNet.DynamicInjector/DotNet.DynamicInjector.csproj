@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>tbertuzzi,andreluizsecco</Authors>
+    <Company />
+    <Copyright>Copyright ©2020</Copyright>
+    <RepositoryUrl>https://github.com/TBertuzzi/DotNetDynamicInjector</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/TBertuzzi/DotNetDynamicInjector</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
