@@ -8,7 +8,7 @@ Dynamic dependency injector for external project DLLs
 
 |Code Quality|Build|Nuget|Contributors|
 | ------------------- | ------------------- | ------------------- | ------------------- |
-|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/263a6f565837483f9d7a5fdd2209f11e)](https://www.codacy.com/manual/TBertuzzi/Xamarin.Forms.DynamicLayout?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TBertuzzi/Xamarin.Forms.DynamicLayout&amp;utm_campaign=Badge_Grade)|[![Build status](https://ci.appveyor.com/api/projects/status/github/TBertuzzi/DotNetDynamicInjector?branch=master&svg=true)](https://ci.appveyor.com/project/ThiagoBertuzzi/DotNetDynamicInjector)|[![NuGet](https://buildstats.info/nuget/DotNetDynamicInjector)](https://www.nuget.org/packages/DotNetDynamicInjector/)|[![GitHub contributors](https://img.shields.io/github/contributors/TBertuzzi/DotNetDynamicInjector.svg)](https://github.com/TBertuzzi/DotNetDynamicInjector/graphs/contributors)|
+|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/263a6f565837483f9d7a5fdd2209f11e)](https://www.codacy.com/manual/TBertuzzi/Xamarin.Forms.DynamicLayout?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=TBertuzzi/Xamarin.Forms.DynamicLayout&amp;utm_campaign=Badge_Grade)|![Build](https://github.com/TBertuzzi/DotNetDynamicInjector/workflows/Build/badge.svg)|[![NuGet](https://buildstats.info/nuget/DotNetDynamicInjector)](https://www.nuget.org/packages/DotNetDynamicInjector/)|[![GitHub contributors](https://img.shields.io/github/contributors/TBertuzzi/DotNetDynamicInjector.svg)](https://github.com/TBertuzzi/DotNetDynamicInjector/graphs/contributors)|
 
 
 **Build History**
