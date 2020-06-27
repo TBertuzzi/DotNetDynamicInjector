@@ -13,4 +13,4 @@ Dynamic dependency injector for external project DLLs
 
 **Platform Support**
 
-RepositoryHelpers is a .NET Standard 2.0 library.
+DotNet.DynamicInjector is a .NET Standard 2.0 library.
