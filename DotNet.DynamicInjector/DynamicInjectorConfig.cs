@@ -28,16 +28,16 @@ namespace DotNet.DynamicInjector
 
                         foreach (var @interface in allowedInterfaces)
                         {
-                            switch (iocRole.LifeTime.ToUpper())
+                            switch (iocRole.LifeTime)
                             {
-                                case "SCOPED":
+                                case LifeTime.SCOPED:
                                 default:
                                     services.AddScoped(@interface, exportedType);
                                     break;
-                                case "SINGLETON":
+                                case LifeTime.SINGLETON:
                                     services.AddSingleton(@interface, exportedType);
                                     break;
-                                case "TRANSIENT":
+                                case LifeTime.TRANSIENT:
                                     services.AddTransient(@interface, exportedType);
                                     break;
                             }
