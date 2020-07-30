@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DotNet.DynamicInjector
 {
-    class DynamicInjectorException : Exception
+    public class DynamicInjectorException : Exception
     {
         public DynamicInjectorException()
         {
