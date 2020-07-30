@@ -2,8 +2,6 @@
 
 Dynamic dependency injector for external project DLLs
 
-Select multiple rows in a listview with xamarin.forms.
-
 Dynamically reference external dlls without the need to add them to the project. Leave your project with low dependency and allowing specific dlls according to your business rule or database parameters.
 
 ###### This is the component, works on .NET Core and.NET Framework
