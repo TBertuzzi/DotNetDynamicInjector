@@ -9,6 +9,9 @@
     <PackageProjectUrl>https://github.com/TBertuzzi/DotNetDynamicInjector</PackageProjectUrl>
     <PackageIcon>icone.png</PackageIcon>
     <PackageTags>net c# ioc dotnet injection netcore aspnet</PackageTags>
+    <Description>Dynamic Injector for .Net Projects</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>DotNetDynamicInjector</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
