@@ -7,19 +7,18 @@ namespace DotNet.DynamicInjector.Models
 {
     public class IoCConfiguration
     {
-        private List<IoCRole> roles;
-        public List<IoCRole> Roles 
-        {   get
-            {
-                return roles?.Where(x => x.Active)
-                    .OrderBy(x => x.Priority).ToList();
-            }
-            set
-            {
-                roles = value;
-            }
+        public List<IoCRole> Roles {get;}
+        public List<string> AllowedInterfaceNamespaces { get; set; }
+
+        public IoCConfiguration()
+        {
+            Roles = new List<IoCRole> ();
         }
 
-        public List<string> AllowedInterfaceNamespaces { get; set; }
+        public List<IoCRole> GetRolesByPriority()
+        {
+            return Roles?.Where(x => x.Active)
+                     .OrderBy(x => x.Priority).ToList();
+        }
     }
 }

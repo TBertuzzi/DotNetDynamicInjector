@@ -14,7 +14,8 @@ namespace DotNet.DynamicInjector
         {
             try
             {
-                foreach (var iocRole in iocConfiguration.Roles)
+                var roles = iocConfiguration.GetRolesByPriority();
+                foreach (var iocRole in roles)
                 {
                     var assembly = AssemblyConfig.LoadAssembly(iocRole.Dll);
 
