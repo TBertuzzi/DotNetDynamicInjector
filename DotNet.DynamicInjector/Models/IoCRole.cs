@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DotNet.DynamicInjector.Models
+﻿namespace DotNet.DynamicInjector.Models
 {
     public class IoCRole
     {
