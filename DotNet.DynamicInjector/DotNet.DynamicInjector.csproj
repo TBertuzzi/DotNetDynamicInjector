@@ -12,10 +12,10 @@
     <Description>Dynamic Injector for .Net Projects</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>DotNetDynamicInjector</PackageId>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <FileVersion>1.1.0.0</FileVersion>
-    <Version>1.1.0</Version>
-    <PackageReleaseNotes>Added methods to add roles and new constructor</PackageReleaseNotes>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+    <Version>1.2.0</Version>
+    <PackageReleaseNotes>Adding constructor for IoCRole and setting Active property to true by default </PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
