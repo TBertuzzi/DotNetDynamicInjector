@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>tbertuzzi,andreluizsecco</Authors>
     <Company />
     <Copyright>Copyright ©2022</Copyright>
@@ -12,9 +12,9 @@
     <Description>Dynamic Injector for .Net Projects</Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageId>DotNetDynamicInjector</PackageId>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
-    <FileVersion>2.0.0.0</FileVersion>
-    <Version>2.0.0</Version>
+    <AssemblyVersion>2.0.0.1</AssemblyVersion>
+    <FileVersion>2.0.0.1</FileVersion>
+    <Version>2.0.1</Version>
     <PackageReleaseNotes>update .net 6.0 </PackageReleaseNotes>
   </PropertyGroup>
 
